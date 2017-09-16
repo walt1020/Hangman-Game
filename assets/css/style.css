@@ -1,0 +1,104 @@
+
+body {
+	background-image: url(../images/congruent_outline.png);
+}
+
+#headerContainer {
+	width: 75%;
+	/*background-color: yellow;*/
+	margin: 0 auto; 
+	text-align: center;
+	padding-top: 2.5%;
+	padding-bottom: 2.5%;
+}
+
+#mainText {
+   font-family: 'Righteous', cursive;
+   font-size: 52px;
+   background: url("../images/waves.png");
+   text-transform: uppercase;
+   color: transparent;
+   -webkit-background-clip: text;
+   background-position: 27px 144px; 
+   z-index: 100;
+   padding-bottom: 3%;
+}
+
+#subText {
+	font-family: 'Righteous', cursive;
+    font-size: 20px;
+    text-transform: uppercase;
+    z-index: 101;
+    /* text-shadow: -2px 2px; */
+    color: #4BFFF6;
+    transform: rotate(-9deg);
+}
+
+.clearFix {
+  	overflow: auto;
+  	zoom: 1;
+}
+
+#boxContainer {
+	width: 75%;
+	margin: 0 auto;
+	width: 75%;
+    margin: 0 auto;
+    border: 5px dotted white;
+    padding-left: 2%;
+   /* padding-top: 2%;*/
+}
+
+#image {
+	height: 568px;
+	margin-left: 43px;
+  margin-right: 80px;
+  margin-top: 14%;
+  width: 400px;
+}
+
+img {
+  width: 446px;
+  margin-right: 1px;
+}
+
+
+#leftBox {
+    float: left;
+    border-right: 5px dotted white;
+    padding-right: 5%;
+}
+
+#rightBox {
+	float: left;
+  margin-left: 7%;
+}
+
+#header {
+	padding: 11px; 
+}
+
+.text {
+	color: white;
+    font-size: 22px;
+    margin-bottom: 10%;
+    text-align: center;
+    margin-left: 46%;
+}
+
+#top.text {
+	margin-top: 2%;
+}
+
+.letterBox {
+	border: 2px solid white;
+}
+
+#underscoreDiv {
+    width: 50%;
+    color: white;
+    margin-left: 48%;
+    text-align: center;
+    font-size: 23px;
+    margin-bottom: 10%;
+}

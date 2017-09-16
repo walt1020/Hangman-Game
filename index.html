@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<title>Hangman-Game</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<meta charset="utf-8">
+	<style>
+	@import url('https://fonts.googleapis.com/css?family=Righteous');
+	</style>
+</head>
+
+<body>
+
+	<div id="headerContainer">
+		<div id="header">
+			<h1 id="mainText">Hangman</h1>
+			<h1 id="subText">Under Da Sea Eddition</h1>
+		</div>
+	</div>
+
+	<section id="boxContainer" class="clearFix" >
+
+		<div id="leftBox">
+			<div id="image">
+				<img src="assets/images/sea horse.jpg">
+			</div>
+		</div>
+		
+
+		<div id="rightBox">
+			<p class="text">Press any button to get started!</p>
+			<div><p class="text" id="wins">Wins</p></div>
+			<p class="text" id="currentWord">Current Word</p>
+			<div id='underscoreDiv'></div>
+			<!-- <div class="letterBox"></div>
+			<div class="letterBox"></div>
+			<div class="letterBox"></div>
+			<div class="letterBox"></div>
+			<div class="letterBox"></div>
+			<div class="letterBox"></div> -->
+			<div><p class="text" id="guessNumber">Number of guesses remaining</p></div>
+			<div><p class="text" id="letterGuessed">Letters already guessed<br></p></div>
+		</div>
+
+	</section>
+
+	<script type="text/javascript" src="assets/javascript/game.js">
+		
+	</script>
+	
+</body>
+
+
+</html>
