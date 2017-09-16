@@ -1,4 +1,4 @@
-var words = ["Walrus", "Seal", "Whale", "Urchin", "Shark", "Blowfish", "Sting Ray", "Orca", "Clownfish", "Breadfish"];
+var words = ["Walrus", "Seal", "Whale", "Urchin", "Shark", "Blowfish", "Sting-Ray", "Orca", "Clownfish", "Breadfish"];
 
 var randomWord = words[Math.floor(words.length * Math.random())];
 
@@ -67,36 +67,47 @@ function updateWin() {
 		wins++;
 		if (document.getElementById("underscoreDiv").innerHTML.replace(/ /g,"") == "breadfish") {
 			document.getElementById("leftBox").innerHTML = "<img src = 'assets/images/breadfish.png'>";
+			document.getElementById("easterEgg").play();
 		}
 		if (document.getElementById("underscoreDiv").innerHTML.replace(/ /g,"") == "walrus") {
 			document.getElementById("leftBox").innerHTML = "<img src = 'assets/images/walrus.gif'>";
+			document.getElementById("easterEgg").pause();
 		}
 		if (document.getElementById("underscoreDiv").innerHTML.replace(/ /g,"") == "seal") {
 			document.getElementById("leftBox").innerHTML = "<img src = 'assets/images/seal.jpg'>";
+			document.getElementById("easterEgg").pause();
 		}
 		if (document.getElementById("underscoreDiv").innerHTML.replace(/ /g,"") == "whale") {
 			document.getElementById("leftBox").innerHTML = "<img src = 'assets/images/whale.jpg'>";
+			document.getElementById("easterEgg").pause();
 		}
 		if (document.getElementById("underscoreDiv").innerHTML.replace(/ /g,"") == "urchin") {
 			document.getElementById("leftBox").innerHTML = "<img src = 'assets/images/urchin.jpg'>";
+			document.getElementById("easterEgg").pause();
 		}
 		if (document.getElementById("underscoreDiv").innerHTML.replace(/ /g,"") == "whale") {
 			document.getElementById("leftBox").innerHTML = "<img src = 'assets/images/whale.jpg'>";
+			document.getElementById("easterEgg").pause();
 		}
 		if (document.getElementById("underscoreDiv").innerHTML.replace(/ /g,"") == "shark") {
 			document.getElementById("leftBox").innerHTML = "<img src = 'assets/images/shark.jpg'>";
+			document.getElementById("easterEgg").pause();
 		}
 		if (document.getElementById("underscoreDiv").innerHTML.replace(/ /g,"") == "blowfish") {
 			document.getElementById("leftBox").innerHTML = "<img src = 'assets/images/blowfish.jpg'>";
+			document.getElementById("easterEgg").pause();
 		}
-		if (document.getElementById("underscoreDiv").innerHTML.replace(/ /g,"") == "sting ray") {
+		if (document.getElementById("underscoreDiv").innerHTML.replace(/ /g,"") == "sting-ray") {
 			document.getElementById("leftBox").innerHTML = "<img src = 'assets/images/stingray.jpg'>";
+			document.getElementById("easterEgg").pause();
 		}
 		if (document.getElementById("underscoreDiv").innerHTML.replace(/ /g,"") == "orca") {
 			document.getElementById("leftBox").innerHTML = "<img src = 'assets/images/orca.jpg'>";
+			document.getElementById("easterEgg").pause();
 		}
 		if (document.getElementById("underscoreDiv").innerHTML.replace(/ /g,"") == "clownfish") {
 			document.getElementById("leftBox").innerHTML = "<img src = 'assets/images/clownfish.jpg'>";
+			document.getElementById("easterEgg").pause();
 		}
 		newWord();
 		pickWord();
